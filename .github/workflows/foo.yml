@@ -6,8 +6,13 @@ on:
 
 jobs:
 
-    build:
+    echo_name:
         runs-on: ubuntu-latest
         steps:
-            - name: run command
-              run: echo test
+            - name: Echo
+              run: echo Shervin
+    date:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Date
+              run: date          
