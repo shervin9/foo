@@ -32,4 +32,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: devops-app:latest
+          tags: shervin9/devops-app:latest
